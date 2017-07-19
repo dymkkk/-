@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="50" height="50" viewBox="0 0 50 50">
+  <defs>
+    <style>
+      .cls-1 {
+        filter: url(#color-overlay-1);
+      }
+
+      .cls-2, .cls-3 {
+        fill: #414447;
+      }
+
+      .cls-3 {
+        fill-rule: evenodd;
+      }
+    </style>
+
+    <filter id="color-overlay-1" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#404446"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+      <feBlend in2="SourceGraphic" result="solidFill"/>
+    </filter>
+  </defs>
+  <g class="cls-1">
+    <circle cx="29.016" cy="38.047" r="2.984" class="cls-2"/>
+    <path d="M24.969,31.065 C24.969,29.430 23.636,28.104 21.992,28.104 C20.348,28.104 19.016,29.430 19.016,31.065 C19.016,32.701 20.348,34.028 21.992,34.028 C23.636,34.028 24.969,32.701 24.969,31.065 Z" class="cls-3"/>
+    <path d="M17.953,24.084 C17.953,22.448 16.620,21.123 14.976,21.123 C13.332,21.123 11.999,22.448 11.999,24.084 C11.999,25.720 13.332,27.046 14.976,27.046 C16.620,27.046 17.953,25.720 17.953,24.084 Z" class="cls-3"/>
+    <path d="M21.963,19.904 C23.607,19.904 24.940,18.578 24.940,16.942 C24.940,15.306 23.607,13.980 21.963,13.980 C20.319,13.980 18.986,15.306 18.986,16.942 C18.986,18.578 20.319,19.904 21.963,19.904 Z" class="cls-3"/>
+    <circle cx="28.984" cy="9.969" r="2.984" class="cls-2"/>
+  </g>
+</svg>

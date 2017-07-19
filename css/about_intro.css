@@ -1,0 +1,130 @@
+.banner{
+    background-image: url("../images/about/banner.jpg");
+}
+
+.part1{
+
+}
+.part1 .part_enTitle{
+    font-size: 0.4rem;
+}
+.part1 .part_cnTitle{
+    opacity: 0.6;
+}
+.part1 .imagePanel{
+    margin-top: 0.5rem;
+    margin-bottom:-0.2rem;
+}
+.part1 p{
+    text-align: center;
+}
+
+.part1 .row1{
+    text-align: center;
+}
+
+
+.part1 .row1 .item{
+    margin-top: 0.2rem;
+}
+
+.part1 .row1 .num{
+    font-family: 'MyriadPro-BoldCond';
+    font-size: 0.6rem;
+}
+
+.part1 .row1 .txt{
+    opacity: 0.5;
+}
+
+.part1 .row1 .intro{
+    margin-top: 0;
+}
+
+
+@media (min-width: 768px){
+    .part1{
+        margin-bottom: 100px;
+    }
+    .part1 .part_enTitle{
+
+    }
+    .part1 .part_cnTitle{
+        margin-top: 20px;
+        font-size: 24px;
+    }
+    .part1 .titleLine{
+        margin-top: 50px;
+    }
+    .part1 .imagePanel{
+        margin-top: 50px;
+        margin-bottom: -20px;
+    }
+    .part1 .row1{
+        margin-top: 50px;
+        width: 830px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .part1 .row1 .item{
+        margin-top: 0;
+        background-image: url("../images/about/line.jpg");
+        background-repeat: no-repeat;
+        background-position: right top;
+    }
+    .part1 .row1 .item:last-child{
+        background-image: none;
+    }
+    .part1 .row1 .num{
+        font-size: 55px;
+    }
+}
+
+.part1 .row2{
+
+}
+.part1 .row2 .imageItem{
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+.part1 .imageItem .txt{
+    position: absolute;
+    width: 100%;
+    top: 0.9rem;
+    font-size: 0.4rem;
+    color: #ffffff;
+    text-align: center;
+}
+
+.part1 .imageItem .line{
+    position: absolute;
+    top: 1.7rem;
+    left: 50%;
+    margin-left: -0.4rem;
+    width: 0.8rem;
+    height: 0.04rem;
+    background-color: #b49a72;
+}
+.part1 .imageItem .whiteLine{
+    background-color: #ffffff;
+}
+
+.part1 .imageItem .blackTxt{
+    color: #000000;
+}
+
+@media (min-width: 768px){
+    .part1 .row2{
+        margin-top: 100px;
+    }
+    .part1 .imageItem .txt{
+        font-size: 24px;
+    }
+    .part1 .imageItem .line{
+        top: 140px;
+        margin-left: -20px;
+        width: 40px;
+        height: 4px;
+    }
+}

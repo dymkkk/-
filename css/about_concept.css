@@ -1,0 +1,133 @@
+.banner{
+    background-image: url("../images/about/banner.jpg");
+}
+
+
+@media (min-width: 768px){
+
+}
+
+.part1{
+
+}
+
+.part1 .row{
+
+}
+
+.part1 .item{
+    color: #ffffff;
+    height: 10rem;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.part1 .item1{
+    background-image: url("../images/about/concept_1_1.jpg");
+}
+.part1 .item2{
+    background-image: url("../images/about/concept_1_2.jpg");
+}
+.part1 .item3{
+    background-image: url("../images/about/concept_1_3.jpg");
+}
+.part1 .item4{
+    background-image: url("../images/about/concept_1_4.jpg");
+}
+
+.part1 .enTxt{
+    margin-top: 2.2rem;
+    font-size: 0.6rem;
+}
+.part1 .cnTxt{
+    margin-top: 0.3rem;
+    font-size: 0.36rem;
+}
+.part1 .txt{
+    opacity: 0.6;
+    margin-top: 4rem;
+}
+
+
+@media (min-width: 768px){
+    .part1 .row{
+
+    }
+    .part1 .item{
+        height: 600px;
+    }
+    .part1 .enTxt{
+        margin-top: 110px;
+        font-size: 60px;
+    }
+    .part1 .cnTxt{
+        margin-top: 30px;
+        font-size: 24px;
+    }
+    .part1 .txt{
+        margin-top: 230px;
+    }
+}
+
+
+.part2{
+    margin-bottom: 3rem;
+}
+.part2 .row{
+    margin-top: 0;
+}
+.part2 .item{
+    margin-top: 1rem;
+}
+.part2 .title{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #ffffff;
+    background-color: #000000;
+    width: 3rem;
+    height: 3rem;
+    line-height: 3rem;
+    -moz-border-radius: 3rem;
+    -webkit-border-radius: 3rem;
+    border-radius:3rem;
+    font-size: 0.6rem;
+}
+.part2 .txt{
+    margin-top: 0.3rem;
+}
+
+.part2 .title{
+
+}
+
+.part2 .txt{
+    text-align: center;
+}
+
+@media (min-width: 768px){
+    .part2{
+        margin-bottom: 165px;
+    }
+    .part2 .row{
+        margin-top: 100px;
+    }
+    .part2 .item{
+        margin-top: 0;
+    }
+    .part2 .title{
+        width: 150px;
+        height: 150px;
+        line-height: 150px;
+        -moz-border-radius: 150px;
+        -webkit-border-radius: 150px;
+        border-radius:150px;
+        font-size: 30px;
+
+    }
+    .part2 .txt{
+        margin-top: 30px;
+    }
+}

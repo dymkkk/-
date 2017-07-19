@@ -1,0 +1,75 @@
+.banner{
+    background-image: url("../images/service/banner.jpg");
+}
+
+.colItem{
+    margin-bottom: 0.8rem;
+}
+.colItem .title{
+    margin-top: 0.2rem;
+    text-align: center;
+    font-size: 0.4rem;
+}
+
+.labPanel{
+    line-height: 0.5rem;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+.labPanel div{
+    display: inline-block;
+    vertical-align: middle;
+}
+.cir{
+    margin-right: 0.3rem;
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius:0.5rem;
+}
+.cir1{
+    background-color: #ecebeb;
+}
+.cir2{
+    margin-left: 0.8rem;
+    background-color: #b49a72;
+}
+
+
+@media (min-width: 768px){
+    .colItem{
+        margin-bottom: 80px;
+    }
+    .colItem .title{
+        margin-top: 10px;
+        font-size: 24px;
+    }
+    .labPanel{
+        margin-bottom: 50px;
+    }
+    .cir{
+        margin-right: 15px;
+        width: 28px;
+        height: 28px;
+        border-radius:28px
+    }
+    .cir2{
+        margin-left: 55px;
+    }
+}
+
+@media (max-width: 768px) {
+    .centerItem{
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+    }
+}
+
+
+@media (min-width: 768px){
+    .part3{
+        width: 870px;
+    }
+}
+

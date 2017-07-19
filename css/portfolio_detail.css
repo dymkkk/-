@@ -1,0 +1,153 @@
+/*---------------------------------------cover---------------------------------------------*/
+.cover{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    color: #ffffff;
+    background-color: #1b1b1b;
+}
+
+.cover .swiper-slide{
+    background-position: center;
+    background-size: cover;
+}
+
+.cover .picBg, .cover .mBg{
+    display: none;
+}
+
+.cover .coverTop{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.cover .intro{
+    position: absolute;
+    width: 100%;
+    display: none;
+}
+
+.cover .intro_m{
+    position: absolute;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+    font-size: 0.4rem;
+    letter-spacing: 0.05rem;
+}
+
+.cover .scrollTxt{
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+    width: 100px;
+    bottom:5%;
+    text-align: center;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.cover .arrow{
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+    width: 100px;
+    bottom:5%;
+    text-align: center;
+    overflow: hidden;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.animation_arrow{
+    -webkit-animation:0.8s 0.8s ease infinite alternate;
+    -webkit-animation-name:arrow_move;
+    -moz-animation:0.8s 0.8s ease infinite alternate;
+    -moz-animation-name:arrow_move;
+}
+@-webkit-keyframes arrow_move{
+    0%{
+        margin-bottom:30px;
+        opacity: 0;
+    }
+    100%{
+        margin-bottom:15px;
+        opacity: 1;
+    }
+}
+
+@media (min-width: 768px){
+    .cover{
+        margin-top: -70px;
+    }
+    .cover .intro{
+        display: block;
+        top: 50%;
+        text-align: center;
+        font-size: 24px;
+    }
+    .cover .intro_m{
+        display: none;
+    }
+}
+
+.portfolio{
+    margin-top: 1rem;
+    margin-bottom: 0.75rem;
+}
+.portfolio .btnPanel{
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+.portfolio .title{
+    font-size: 0.4rem;
+    font-weight: bold;
+    margin-bottom: 0.4rem;
+}
+.portfolio .detail{
+    opacity: 0.6;
+}
+.portfolio .intro{
+    border-bottom: solid 2px #d9dada;
+    padding-bottom: 0.7rem;
+}
+.portfolio .picTitle{
+    margin-top: 1rem;
+}
+.portfolio .thumbPanel{
+    padding-left: 0.15rem;
+    padding-right: 0.15rem;
+    margin-bottom: 0.3rem;
+}
+
+@media (min-width: 768px){
+    .portfolio{
+        margin-top: 100px;
+        margin-bottom: 75px;
+    }
+    .portfolio .btnPanel{
+        float: right;
+    }
+    .portfolio .title{
+        font-size: 30px;
+        margin-bottom: 40px;
+    }
+    .portfolio .detail{
+        font-size: 12px;
+    }
+    .portfolio .intro{
+        padding-bottom: 60px;
+    }
+    .portfolio .picTitle{
+        margin-top: 100px;
+    }
+    .portfolio .thumbPanel{
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-bottom: 30px;
+    }
+}
